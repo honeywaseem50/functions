@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Conditional and functions</h1>
+
+    <script>
+        let age=40
+
+        if(age>=18){
+            console.log("you are adult");
+        }
+        else {
+            console.log("you are minor");
+        }
+        let grade = "A";
+        if(grade == "A"){
+            console.log("Excellent");
+        }
+        else if(grade == "B"){
+            console.log("Good");
+        }
+        else if(grade == "C"){
+            console.log("Average");
+        }
+        else if(grade == "D"){
+            console.log("Below Average");
+        }
+        else{
+            console.log("Fail");
+        }
+        let weight =60
+        if(weight ==59){
+            console.log("Rejected");
+
+        }
+        else if (weight ==60){
+            console.log("Accepted");
+        }
+        else if(weight<59){
+            console.log("Refer Category B");
+        }
+// logical operators
+        let bmi = 38;
+        if(bmi<18.5){
+            console.log("Underweight");
+        }
+        else if(bmi>=18.5 && bmi<=24.9){
+            console.log("Healthy");
+        }
+        else if(bmi>=25 && bmi<=29.9){
+            console.log("Overweight");
+        }
+        else if(bmi>=30 && bmi<=39.9){
+            console.log("Obese");
+        }
+        else{
+            console.log("severely obese");
+        }
+
+        let domicle ="Punjab";
+        let userage =17;
+
+        if(domicle == "Punjab" || userage>=18){
+            console.log("Eligible for voting");
+        }
+         // functions
+         let isRaining = false;
+
+         // is raining==true : false => true
+         if(isRaining==true){
+            console.log("You can go outside");
+         }
+         
+         let weeday ="sunday";
+
+         if(weeday != "sunday"){
+            console.log("You have to go to work");
+         }
+         else{
+            console.log("Enjoy your day off");
+         }
+
+    </script>
+</body>
+</html>
